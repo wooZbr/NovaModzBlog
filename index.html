@@ -1,0 +1,115 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Novz Modz</title>
+    <link rel="shortcut icon" href="https://i.imgur.com/zIE3ok8.png"></link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"></link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous"></link>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+    <b:skin/>
+
+    <style>
+        :root {
+            --bs-success: #198754;
+        }
+        .header-img {
+            max-width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            /* background-image: url(https://lh3.googleusercontent.com/-7V3n4s1m_ms/YSCPlX1sCgI/AAAAAAAAcXU/lPnGE-aKx6grvKq1XgD4biEHPEQT4Ci1gCLcBGAsYHQ/s16000/gta-sa-san-mod-texture-remaster-hd-rosa-evolved-ai-9.jpg); */
+            background-size: cover;
+            background-position: center;
+        }
+        .post-title {
+            border-bottom: 1px solid var(--bs-success);
+        }
+        .post-title * {
+            color: var(--bs-success);
+            text-decoration: none;
+        }
+        .post-body {
+            /* border: 1px solid var(--bs-success); */
+            border-radius: .2em;
+        }
+        .post-labels {
+            padding: .2em .5em;
+            border: 1px solid var(--bs-success);
+            border-radius: 1em;
+        }
+        .blog-pager, .blog-feeds {
+            display: none;
+        }
+
+        @media (max-width: 576px) {
+            .header-img {
+                justify-content: center;
+                padding-bottom: 1em;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <header> -->
+        <div class="header-img px-4 bg-dark" style="height: 200px;">
+            <div class="header-logo h-75 text-center">
+                <img src="https://i.imgur.com/x1Oa6PM.png" class="h-75 d-block"></img>
+                <h4 class="text-light lead">Inovando o seu GTA!</h4>
+            </div>
+            <div class="header-social">
+                <a class="btn btn-primary" href="https://www.facebook.com/NovaModzChavo/" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark border border-success border-start-0 border-end-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://novamodzgta.blogspot.com/">Nova Modz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="https://novamodzgta.blogspot.com/home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Projetos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">GTA Chaves</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="https://novamodzgta.blogspot.com/search/label/mods">Mods</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="https://novamodzgta.blogspot.com/search/label/tutoriais">Tutoriais</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="https://novamodzgta.blogspot.com/search/label/gta3sc">Documentação GTA3Script</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="https://novamodzgta.blogspot.com/equipe">Equipe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- </header> -->
+
+    <main class="m-4 p-3 bg-light text-center border border-success rounded">
+        <b:section id="mainbody">
+            <b:widget id="Blog1" type="Blog"/>
+        </b:section>
+    </main>
+    
+</body>
+
+</html>
